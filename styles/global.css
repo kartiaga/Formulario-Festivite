@@ -18,8 +18,8 @@
   --body-sm: 400 .875rem var(--font-family-body);
   --body-xs: 400 .75rem var(--font-family-body);
 
-  --text-primary: #C8CDD0;
-  --text-secondary: #F9F9F9;
+  --text-heading: #C8CDD0;
+  --text-body: #F9F9F9;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   background-color: #212427;
 
   font-family: var(--font-family-body);
-  color: var(--text-secondary);
+  color: var(--text-body);
 }
 
 h1, h2 {
