@@ -1,0 +1,14 @@
+#app {
+  display: grid;
+  grid-template-columns: 32.78% 67.22%;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+aside {
+  background: url(../assets/Background.png) no-repeat center/cover;
+
+
+}
+
