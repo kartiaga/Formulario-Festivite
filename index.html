@@ -17,12 +17,70 @@
     <aside>
       <div>
         <img src="assets/Logo.svg" alt="">
-        <h1>Festivite</h1>
+        <h2>Festivite</h2>
         <p>Crie um convite digital para o seu evento</p>
       </div>
     </aside>
     <main>
-      
+      <div class="main-container">
+        <h1>Crie seu convite</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+          <fieldset class="event">
+            <legend><img src="assets/icons/calendar.svg" alt="">Sobre o evento</legend>
+
+            
+            <label for="event">Título</label>
+            <input type="text" id="event" name="event" placeholder="Nome do evento">
+
+            <div class="input-wrapper">
+              <div class="input-inner">
+                <label for="initial-date">Início</label>
+                <input type="datetime-local" id="initial-datetime" name="initial-datetime">
+              </div>
+              
+              <div class="input-inner">
+                <label for="end-date">Fim</label>
+                <input type="datetime-local" id="end-datetime" name="end-datetime">
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <div class="radio-inner">
+                
+                <label for="tipo">Tipo</label>
+
+                <div class="container-radio">
+                  <div class="button-radio">
+                    <div class="image-presencial"></div>
+                    <span>Presencial</span>
+                    <input type="radio" name="tipo" id="tipo" value="presencial" checked>
+                  </div>
+                  <div class="button-radio">
+                    <div class="image-online"></div>
+                    <span>Online</span>
+                    <input type="radio" name="tipo" id="tipo" value="online">
+                  </div>
+                </div>
+
+              </div>
+              <div class="input-inner">
+                <label for="address">Local</label>
+                <input type="text" id="address" name="address" placeholder="Link ou endereço">
+              </div>
+                
+              
+            </div>
+
+            
+            <label for="description">Descrição</label>
+            <textarea name="description" id="description" placeholder="Escreva sobre os detalhes do evento" rows="5"></textarea>
+            
+          </fieldset>
+
+          
+        </form>
+      </div>
     </main>
   </div>
 </body>
