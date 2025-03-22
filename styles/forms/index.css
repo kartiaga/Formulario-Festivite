@@ -1,4 +1,5 @@
 @import url(event.css);
+@import url(customization.css);
 
 fieldset {
   border: none;

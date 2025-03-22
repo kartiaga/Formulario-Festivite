@@ -1,0 +1,86 @@
+.customization {
+  margin-top: 48px;
+
+  & label {
+    color: #FFFFFF;
+  }
+}
+
+.color-container {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 0.75rem;
+
+}
+
+.input-color {
+  min-width: 28px;
+  min-height: 28px;
+
+  aspect-ratio: 1/1;
+
+  
+  border: solid 6px var(--shape-button);
+  border-radius: 50%;
+
+  position: relative;
+
+  &:hover {
+    border-color: var(--shape-hover);
+  }
+
+  &:has(:checked) {
+    outline: solid 2px var(--brand-light);
+  }
+
+  &:nth-child(1){
+    background-color: var(--brand-light);
+  }
+
+  &:nth-child(2){
+    background-color: var(--navy);
+  }
+
+  &:nth-child(3){
+    background-color: var(--purple);
+  }
+  
+  &:nth-child(4){
+    background-color: var(--fuschia);
+  }
+
+  &:nth-child(5){
+    background-color: var(--pink);
+  }
+
+  &:nth-child(6){
+    background-color: var(--danger);
+  }
+
+  &:nth-child(7){
+    background-color: var(--orange);
+  }
+
+  &:nth-child(8){
+    background-color: var(--yellow);
+  }
+
+  &:nth-child(9){
+    background-color: var(--lime);
+  }
+
+  &:nth-child(10){
+    background-color: var(--green);
+  }
+
+  &:nth-child(11){
+    background-color: var(--cyan);
+  }
+}
+
+.input-color > input {
+  position: absolute;
+
+  opacity: 0;
+  
+}
