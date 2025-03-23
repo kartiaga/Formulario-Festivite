@@ -140,6 +140,10 @@
 .customization-wrapper {
   display: flex;
 
+  & label {
+    margin-top: 28px;
+  }
+
   & .dark-white-container {
     flex: 1;
 
