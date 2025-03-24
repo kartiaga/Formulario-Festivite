@@ -1,4 +1,8 @@
 .contact {
   margin-block: 3rem;
+}
 
+.stroke {
+  width: 100%;
+  border-top: solid 1px var(--input-stroke);
 }
