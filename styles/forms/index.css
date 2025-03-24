@@ -2,6 +2,7 @@
 @import url(customization.css);
 @import url(contact.css);
 @import url(terms.css);
+@import url(submit.css);
 
 fieldset {
   border: none;

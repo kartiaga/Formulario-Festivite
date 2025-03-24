@@ -43,7 +43,7 @@ main {
 
   & .main-container {
     max-width: 560px;
-    margin-top: 5rem;
+    margin-block: 5rem;
     margin-inline: 8.125rem;
     margin-right: 40px;
   }
