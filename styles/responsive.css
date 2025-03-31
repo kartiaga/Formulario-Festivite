@@ -1,0 +1,36 @@
+@media (width < 80em) {
+  body {
+    overflow: visible;
+  }
+  
+  #app {
+    overflow: visible;
+    display: block;
+  }
+  
+  div.main-container {
+    margin: 1.5rem;
+  }
+
+  div.input-wrapper {
+    display: block;
+  }
+
+  div.customization-wrapper {
+    display: block;
+  }
+
+
+  div.theme-container {
+    grid-template-columns: repeat(auto-fill, minmax(131px, 1fr));
+  }
+
+  div.color-container {
+    grid-template-columns: repeat(auto-fit, minmax(28px, 1fr));
+  }
+
+  div.checkbox-terms {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+  }
+}
